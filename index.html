@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Alex Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#aboutSection">About</a></li>
+                    <li><a href="#projectsSection">Projects</a></li>
+                    <li><a href="#contactSection">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="heroSection">
+            <div class="container">
+                <h2>Welcome To My Portfolio</h2>
+                <p>I'm Alex, a passionate Web Developer and Game Developer.</p>
+                <p>I specialize in HTML, CSS, JavaScript, and Python.</p>
+                <p>Open to collaboration opportunities.</p>
+            </div>
+        </section>
+
+        <section id="aboutSection">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I'm a graduate student with a Bachelor's degree in Information Technology. I have a keen interest in web development and game development, aiming to create innovative and captivating experiences.</p>
+            </div>
+        </section>
+
+        <section id="projectsSection">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project">
+                    <img src="task-manager-img.jpg" alt="Task Manager Project">
+                    <div class="project-info">
+                        <h3>Task Manager</h3>
+                        <p>A task management web app to organize your work efficiently.</p>
+                        <a href="http://your-task-manager-url.com" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+                <!-- Additional projects can be added here -->
+            </div>
+        </section>
+
+        <section id="contactSection">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <div class="contact-form">
+                    <form id="contactForm" method="post" action="process_form.php">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Alex Portfolio. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/your-linkedin-profile-url" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/your-github-profile-url" target="_blank"><i class="bi bi-github"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
